@@ -15,10 +15,12 @@
         </activity>
 
         <activity android:name=".ChainActivity">
-
         </activity>
-        <activity android:name=".AspectRatioActivity">
 
+        <activity android:name=".AspectRatioActivity">
+        </activity>
+
+        <activity android:name=".GroupActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -26,7 +28,7 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".GroupActivity"/>
+
     </application>
 
 </manifest>

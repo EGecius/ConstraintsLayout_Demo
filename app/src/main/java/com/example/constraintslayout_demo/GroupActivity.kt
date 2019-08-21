@@ -1,6 +1,7 @@
 package com.example.constraintslayout_demo
 
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_group.*
 
@@ -14,11 +15,11 @@ class GroupActivity : AppCompatActivity() {
     }
 
     private fun setOnClickListeners() {
-        hideViewsButton.setOnClickListener {
-
+        showViewsButton.setOnClickListener {
+            group.visibility = View.VISIBLE
         }
         hideViewsButton.setOnClickListener {
-
+            group.visibility = View.GONE
         }
     }
 }
